@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>add user</title>
+ <!-- <link href="css/adduser.css" rel="stylesheet"> -->
+ <style>
+ * {
+box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+font-family: 'segoe ui';
+}
+
+.nav {
+height: 50px;
+width: 100vw;
+background-color: #4d4d4d;
+}
+
+.nav > .nav-header {
+display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+display: inline-block;
+font-size: 22px;
+color: #fff;
+padding: 10px 10px 10px 130px;
+}
+/* image section*/
+
+
+.formdiv{
+ display: flex;
+}
+.container {
+ padding: 65px 10px 10px 200px;
+ }
+.details{
+ padding: 8px 10px 10px 85px;
+}
+
+.img{
+ width: 45%;
+ clip-path: circle();
+
+}
+
+
+
+
+.cont {
+ padding: 50px 50px 10px 30px;
+ background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+/* Set a style for the submit button */
+.cancelbtn {
+ background-color: #04AA6D;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 40%;
+ opacity: 0.9;
+}
+
+.cancelbtn:hover {
+ opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+ color: dodgerblue;
+}
+
+
+.savebtn {
+ background-color: #04AA6D;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 40%;
+ opacity: 0.9;
+}
+
+.savebtn:hover {
+ opacity: 1;
+}
+
+
+</style> 
+</head>
+
+
+<body>
+
+   <!--navigation bar-->
+<div>
+ <div class="nav"> 
+   <div class="nav-header">
+     <div class="nav-title">
+       USER MANAGEMENT
+     </div>
+   </div>
+ </div>
+
+<!--user form --> 
+<!--user form --> 
+<div>
+  <div class="formdiv">
+   <div class="container">
+       <img src="img_avatar2.png" class="img">
+       <div class="details"><h4><b>Add Details</b></h4>
+       </div>
+   </div>
+
+
+   <div class="formdetails">
+     <form >
+       <div class="cont">
+    
+         <label for="name"><b>Name</b></label>
+         <input type="text" placeholder="Enter name" name="name" id="name" required>
+    
+         <label for="psw"><b>Email</b></label>
+         <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+         <label for="psw-repeat"><b> Place</b></label>
+         <input type="text" placeholder="Enter Place" name="Enter Place" id="Enter Place" required>
+        
+    
+        <a href="index.html"> <button type="submit" class="cancelbtn">cancel</button></a>
+         <button type="submit" class="savebtn">save</button>
+       </div>
+      
+     
+     </form>
+    
+   </div>
+ </div>
+</div>
+
+
+      
+</body>
+</html>
+
+

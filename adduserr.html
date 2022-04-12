@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  width: 50%;
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: rgba(166, 136, 172, 0);
+}
+button { 
+       background-color: #4CAF50; 
+       width: 100%;
+        color: orange; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text] { 
+        width: 100%; 
+        margin: 6px ;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+    } 
+    .img{
+ width: 35%;
+ clip-path: circle();
+
+}
+.nav > .nav-header > .nav-title {
+display: inline-block;
+font-size: 22px;
+color: rgb(48, 82, 16);
+padding: 10px 10px 10px 130px;
+}
+</style> 
+</head>  
+<body>  
+    <div class="nav"> 
+        <div class="nav-header">
+          <div class="nav-title">
+            USER MANAGEMENT
+          </div>
+        </div>
+      </div>
+    <div class="container"> 
+        <img src="img_avatar2.png" class="img">
+    <center> <h1> ADD DETAILS </h1> </center> 
+    <form>
+       
+            <label>First Name : </label> 
+            <input type="text" placeholder="Enter firstname" name="firstname" required>
+            <label>Last Name: </label> 
+            <input type="text" placeholder="Enter lastname" name="lastname" required>
+<label>Place: </label> 
+            <input type="text" placeholder="Enter place" name="place" required>
+            <button type="button" class="cancelbtn">Save</button>
+             
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            
+        </div> 
+    </form>   
+</body>   
+</html>
